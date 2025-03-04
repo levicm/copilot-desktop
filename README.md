@@ -4,6 +4,8 @@ Copilot Desktop is an unofficial wrapper for Microsoft's Copilot AI Companion, p
 
 Based on Tanmoy Ganguly [notion-desktop](https://github.com/xanmoy/notion-desktop) work.
 
+![Image](https://github.com/levicm/copilot-desktop/blob/main/screenshots/banner.png)
+
 ## Disclaimer
 
 This project and its contributors are not affiliated with Microsoft. This is simply an Electron wrapper that loads the offical Microsoft Copilot web application.
