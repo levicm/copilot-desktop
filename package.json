@@ -1,0 +1,43 @@
+{
+  "name": "copilot-desktop",
+  "title": "Copilot Desktop",
+  "productName": "Copilot Desktop",
+  "description": "Unofficial Web app for Microsoft Copilot providing the desktop user experience you would expect on Ubuntu or any other Linux desktop.",
+  "version": "0.1.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "com.github.levicm.copilotdesktop",
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icon.png",
+      "category": "Utility"
+    },
+    "extraFiles": [
+      "assets/${name}.desktop"
+    ]
+  },
+  "homepage": "https://github.com/levicm/copilot-desktop",
+  "repository": "https://github.com/levicm/copilot-desktop.git",
+  "keywords": [
+    "Electron",
+    "Copilot",
+    "copilot-desktop",
+    "Linux",
+    "desktopApplication"
+  ],
+  "author": "Levi Mota",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "electron-context-menu": "^4.0.4",
+    "flatpak-bundler": "^0.1.3"
+  }
+}
