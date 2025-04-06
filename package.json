@@ -3,7 +3,7 @@
   "title": "Copilot Desktop",
   "productName": "Copilot Desktop",
   "description": "Unofficial Web app for Microsoft Copilot providing the desktop user experience you would expect on Ubuntu or any other Linux desktop.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/main.js",
   "type": "module",
   "scripts": {
@@ -19,7 +19,12 @@
     },
     "extraFiles": [
       "assets/${name}.desktop"
-    ]
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "levicm",
+      "repo": "copilot-desktop"
+    }
   },
   "homepage": "https://github.com/levicm/copilot-desktop",
   "repository": "https://github.com/levicm/copilot-desktop.git",
