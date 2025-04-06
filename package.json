@@ -16,10 +16,8 @@
       "target": "AppImage",
       "icon": "assets/icon.png",
       "category": "Utility",
-      "appImage": {
-        "artifactName": "${productName}-${version}.AppImage",
-        "publish": ["github"]
-      }
+      "artifactName": "${productName}-${version}.AppImage",
+      "publish": ["github"]
     },
     "extraFiles": [
       "assets/${name}.desktop"
