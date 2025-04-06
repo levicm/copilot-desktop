@@ -52,7 +52,7 @@ const createWindow = () => {
     });
 
     window.once('ready-to-show', () => {
-        window.maximize();
+        //window.maximize();
     });
 };
 
